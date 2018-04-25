@@ -1,4 +1,4 @@
-<% if @post.errors.any %>
+<% if @post.errors.any? %>
   <div>
     <p><%= pluralize(@post.errors.count, "error") %> prevented this post from saving.</p>
     <ul>
